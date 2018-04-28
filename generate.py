@@ -2,7 +2,7 @@ import random
 import string
 from random import sample, choice
 #Define
-aantal = input("Hoeveel regels? \n")
+aantal = input("How many? \n")
 filename = "users_gen.txt"
 chars = "qwertyuiopasdfghjklzxcvbnm1234567890"
 #Clear file

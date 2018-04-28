@@ -42,10 +42,10 @@ def start(filename):
                 sys.stdout.flush()
                 break
             #Generate message
-            message = "Gebruiker met gebruikersnaam " + gegevens[0] + " is aangemaakt\n"
+            message = "User with username " + gegevens[0] + " created\n"
             oneoutof = "[" + str(i + 1) + "/" + str(length) + "]"
             percent = str(round(100 / length * (i + 1))) + "%"
-            speed = str(round(i / (time.time() - start_time), 2)) + " p/s"
+            speed = str(round(i / (time.time() - start_time), 2)) + " u/s"
             #Output
             sys.stdout.write("\r" + message + oneoutof + " " + percent + " " + speed)
             sys.stdout.flush()
