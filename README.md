@@ -1,5 +1,5 @@
 ## Linux bulk accounts creator
-I wrote this little linux bulk account creator for a schoolproject
+I wrote this little python script for a schoolproject
 ## How it works
 1. You create a username/password file like this:
 ```
